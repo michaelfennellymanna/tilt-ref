@@ -9,11 +9,13 @@ This is a repo that can be used as a reference for Tilt managed dev environments
 Tilt is a tool that can be used to manage dev environments in a single unified dashboard. It has a configuration file called `Tiltfile` that can be used to create a _dev-env-as-code_, so that you can create configurations for Tilt managed applications and share with team members. It gives multiple benefits, which can alleviate repetetive tasks and scattered workspaces. Here are some of the benefits of Tilt:
 
 *Automation:*
+
 - `tilt up` for startup: Just run thhe command `tilt up` to start your dev environment based on Tiltfile in your project root.
 - No laborious Docker interactions: Tilt listens for changes to file changes in your project directory and syncs your running containers with the updated source, without tearing down and rebuilding images (where possible).
 - Custom triggers/events: Advanced features (from what I understand), essentially allow you to create events, and instruct Tilt how to handle certain events.
 
 *Workspace organisation*:
+
 - Unified view: Tilt has a dashboard that can give you a unified view where you can see the health and status of your application workloads (_resources_).
 - Cleaner logging: Tilt has a dashboard view for each resource, logs are included in this view, as well as features for searching logs which includes regex search.
 
@@ -28,4 +30,4 @@ To start this application (a very minimal app), run the following command in the
 tilt up
 ----
 
-... once Tilt has the app up and running, you can try making changes and play around to see how Tilt can help you work.
+Once Tilt has the app up and running, you can try making changes and play around to see how Tilt can help you work.
