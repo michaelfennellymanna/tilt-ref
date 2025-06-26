@@ -1,4 +1,4 @@
-= tilt-template
+= tilt-ref
 :toc:
 
 == Abstract Overview
@@ -30,4 +30,10 @@ To start this application (a very minimal app), run the following command in the
 tilt up
 ----
 
+By default, Tilt will start the application in the background. You can view the Tilt dashboard at http://localhost:10350.
+
 Once Tilt has the app up and running, you can try making changes and play around to see how Tilt can help you work.
+
+== Digging deeper - How this application works.
+
+As mentioned, Tilt is a dev-env-as-code tool. This means that you can create a configuration file that can be used to create a dev environment. This configuration file is called `Tiltfile` and is located in the root of the project.
